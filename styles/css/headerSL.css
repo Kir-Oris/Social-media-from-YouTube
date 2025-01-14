@@ -1,0 +1,44 @@
+.header {
+
+    height: 100px;
+    background-image: url(../../images/fon8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DBD7D2;
+}
+
+.header div {
+
+    display: flex;
+    margin: 0 auto;
+    width: 70vw;
+    height: 100px;
+    align-items: center;
+}
+
+.title a {
+
+    font-size: 40px;
+    font-family: "Sour Gummy";
+    text-decoration: none;
+    color: #DBD7D2;
+}
+
+.button {
+
+    background:  #1C1C1C;
+    width: 100px;
+    text-align: center;
+    color: #D0D0D0;
+    padding: 7px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+    border: 3px ridge #151719;
+}
+
+.button:active {
+
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
